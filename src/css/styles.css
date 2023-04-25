@@ -6,25 +6,43 @@
 */
 @import url('./reset.css');
 @import url('./hero.css');
-@import url('./header.css');
-@import url('./header.css');
-@import url('./header.css');
-@import url('./header.css');
-@import url('./header.css');
-@import url('./header.css');
+@import url('./about-us.css');
+@import url('./catalog.css');
+@import url('./new-watches.css');
+@import url('./sale.css');
+@import url('./footer.css');
+@import url('./buy-now-popup.css');
+@import url('./burger-menu.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  --color-dark-green: #1e2827;
+  --color-black: #141414;
+  --color-white: #ffffff;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+body {
+  color: var(--color-black);
+  background-color: var(--color-white);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+
+  letter-spacing: -0.02em;
+
+}
+
+.container {
+/* mobile screen */
+  max-width: 375;
+  padding: 0 20px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.section {
+  /* mobile section */
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
