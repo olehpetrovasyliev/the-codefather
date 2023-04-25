@@ -28,7 +28,7 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: calc(18 / 14);
-  
+
   letter-spacing: -0.02em;
 
 }
@@ -39,4 +39,10 @@ body {
   padding: 0 20px;
   margin: 0 auto;
   outline: 1px solid red;
+}
+
+.section {
+  /* mobile section */
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
