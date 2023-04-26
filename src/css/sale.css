@@ -4,7 +4,6 @@
   |============================
 */
 
-.sale {}
 
 .sale-title {
     margin-bottom: 40px;
@@ -23,7 +22,7 @@
     margin-bottom: 40px;
 }
 
-.sale-list {}
+
 
 .sale-list .item {
     background-color: var(--color-black);
