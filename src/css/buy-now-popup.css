@@ -17,12 +17,6 @@
     pointer-events: none;
 }
 
-@media only screen and (min-width: 768px) {
-    .backdrop {
-        width: 744px;
-    }
-}
-
 /* div */
 .modal {
     max-width: 335px;
@@ -47,7 +41,16 @@
     .modal {
         display: flex;
         gap: 20px;
-        max-width: 664px;
+        max-width: 744px;
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .modal {
+        display: flex;
+        gap: 40px;
+        max-width: 904px;
         padding: 40px;
     }
 }
@@ -68,6 +71,12 @@
 
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-clock-pic {
+        width: 276px;
+    }
 }
 
 .modal-clock-text {
@@ -161,6 +170,12 @@
     color: rgba(20, 20, 20, 0.4);
     font-size: 12px;
     font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-wind-desc {
+        text-align: start;
+    }
 }
 
 /* a */
