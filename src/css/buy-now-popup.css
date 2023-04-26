@@ -38,6 +38,11 @@
     background-color: #ffffff;
 }
 
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
 @media only screen and (min-width: 768px) {
     .modal {
         display: flex;
@@ -66,8 +71,8 @@
 }
 
 .modal-clock-text {
-    padding-left: 9.5px;
-    padding-right: 9.5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* h3 */
