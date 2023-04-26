@@ -40,7 +40,21 @@ body {
   padding: 0 20px;
   margin: 0 auto;
   outline: 1px solid red;
+  
 }
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1158px;
+  }
+}
+
 
 .section {
   /* mobile section */
@@ -126,7 +140,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .catalog-menu {
-    gap: 40px 24px;
+    gap: 24px;
   }
 }
 
@@ -137,7 +151,7 @@ body {
 }
 
 .catalog-item {
-  max-width: 276px;
+  max-width: 336px;
   background-color: var(--white-color);
 }
 
@@ -157,3 +171,9 @@ body {
   margin-bottom: 43px;
 }
 
+.catalog-button {
+  width: 122px;
+   height:50px;
+  border-radius: 8px; 
+  padding: 18px 35px;
+}
