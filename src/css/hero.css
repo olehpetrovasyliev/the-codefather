@@ -13,17 +13,42 @@
   color: var(--color-white);
 }
 
+.swiper {
+  margin-bottom: 40px;
+}
+
 .swiper-wrapper {
   margin-bottom: 20px;
 }
 
+.swiper-slide-active {
+  max-width: 266px;
+  margin-right: 70px;
+  background-color: var(--color-dark-green);
+}
+
+.swiper-slide-img {
+  margin: 0 auto;
+}
+
+.swiper-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .swiper-buttons {
   display: flex;
-  margin-bottom: 40px;
+  gap: 12px;
 }
 
 .swiper-btn {
   display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+
   border: none;
   background-color: transparent;
 }
@@ -35,8 +60,28 @@
 
 .swiper-pagination {
   position: static;
+
+  display: flex;
+  width: 74px;
+
   --swiper-pagination-color: var(--color-white);
   --swiper-pagination-fraction-color: var(--color-white);
+}
+
+.swiper-pagination-current {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-current::after {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 1px;
+  margin: 0 6px;
+
+  background-color: var(--color-white);
 }
 
 .hero-desc {
