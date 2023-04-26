@@ -22,7 +22,7 @@
     height: 100%;
     /* overflow: hidden; */
     transform: translate(-101%, 0);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 8px;
 }
 
@@ -35,7 +35,7 @@
 
 .link-hover {
     display: block;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 350ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-hover:hover .overflov,
