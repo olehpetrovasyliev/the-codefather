@@ -25,10 +25,44 @@
     color: var(--color-black);
 }
 
+@media only screen and (min-width: 768px) {
+  .new-watches-description {
+    width: 448px;
 
-.new-watches-list .item:not(:last-child) {
-    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: calc(44/40);
+  
+    color: var(--color-dark-green);
+  }
 }
+
+@media only screen and (min-width: 768px) {
+  .new-watches-list {
+    display: flex;
+    gap: 20px;
+
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .new-watches-list .item:not(:last-child) {
+      margin-bottom: 20px;
+  } 
+}
+
+.new-watches-list .item {
+    max-width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+    .new-watches-list .item {
+        max-width: 342px;
+        flex-basis: calc((100% - 20px)/2);
+    }
+}
+
+
+
 
 
 /**
