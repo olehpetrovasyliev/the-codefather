@@ -1,0 +1,25 @@
+body {
+  color: var(--color-black);
+  background-color: var(--color-white);
+
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+
+  letter-spacing: -0.02em;
+}
+
+.container {
+  /* mobile screen */
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+.section {
+  /* mobile section */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
