@@ -1,7 +1,7 @@
 <!-- Modal window -->
-<div class="overlay">
+<div class="backdrop" data-modal>
   <div class="modal">
-    <button class="close-modal">
+    <button class="close-modal" type="button" data-modal-close>
       <svg class="close-btn" width="10" height="10">
         <use href="../images/sprite.svg#close-btn-window"></use>
       </svg>
@@ -77,3 +77,5 @@
     </div>
   </div>
 </div>
+
+<script src="./js/modal.js"></script>
