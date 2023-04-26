@@ -1,0 +1,225 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./hero.css');
+@import url('./about-us.css');
+@import url('./catalog.css');
+@import url('./new-watches.css');
+@import url('./sale.css');
+@import url('./footer.css');
+@import url('./buy-now-popup.css');
+@import url('./burger-menu.css');
+
+:root {
+    --color-dark-green: #1e2827;
+    --color-black: #141414;
+    --color-white: #ffffff;
+
+    --primary-font: 'Epilogue', sans-serif;
+}
+
+body {
+    color: var(--color-black);
+    background-color: var(--color-white);
+
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+
+    letter-spacing: -0.02em;
+}
+
+.container {
+    /* mobile screen */
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+    outline: 1px solid red;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1158px;
+    }
+}
+
+
+.section {
+    /* mobile section */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* =========================== OVERLAY ============================ */
+
+.cat-list-link-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.overflov {
+    position: absolute;
+    left: 32px;
+    top: 40px;
+    left: 0;
+    top: 0;
+    padding: 20px 10px;
+    color: #FFFFFF;
+    background-color: #1E2827;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    transform: translate(0, 100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.link-hover {
+    display: block;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-hover:hover .overflov,
+.link-hover:focus .overflov {
+    transform: translate(0, 0);
+}
+
+.over-descrip {
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding-top: 26px;
+    padding-bottom: 10px;
+}
+
+.over-descript-second {
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: left;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* =========================== /OVERLAY ============================ */
+
+/* =========================== CATALOG DESIGN ============================ */
+
+.catalog-name {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #1E2827;
+    text-align: left;
+    offset: 0px, 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+}
+
+.catalog-describe {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.02em;
+    color: #141414;
+    text-align: left;
+}
+
+.catalog-price {
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: rgba(20, 20, 20, 0.5);
+    text-align: left;
+}
+
+/* =========================== /CATALOG DESIGN ============================ */
+
+
+.catalog-sect {
+    background-color: #ffffff;
+    /* margin: 40px 0; */
+}
+
+.catalog-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 43px 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .catalog-menu {
+        gap: 24px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .catalog-menu {
+        gap: 64px 24px;
+    }
+}
+
+.catalog-item {
+    max-width: 336px;
+    background-color: var(--white-color);
+}
+
+@media only screen and (min-width: 768px) {
+    .catalog-item {
+        width: calc((100% - 1 * 24px) / 2);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .catalog-item {
+        width: calc((100% - 3 * 24px) / 4);
+    }
+}
+
+.catalog-img {
+    margin-bottom: 43px;
+}
+
+.catalog-button {
+    font-size: 12px;
+    line-height: 1, 16;
+    text-align: center;
+    color: #ffffff;
+
+    display: block;
+    margin-left: auto;
+    background-color: #1E2827;
+    border: none;
+    width: 122px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 18px 35px 18px 35px;
+    margin-top: 40px;
+    margin-bottom: 80px
+}
+
+
+@media only screen and (min-width: 768px) {
+    .catalog-button {}
+}
+
+@media only screen and (min-width: 1280px) {
+    .catalog-button {
+        margin-right: 132px;
+        margin-bottom: 80px
+    }
+}
