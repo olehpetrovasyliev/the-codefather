@@ -18,6 +18,8 @@
   --color-dark-green: #1e2827;
   --color-black: #141414;
   --color-white: #ffffff;
+
+  --primary-font: 'Epilogue', sans-serif;
 }
 
 body {
@@ -30,11 +32,10 @@ body {
   line-height: calc(18 / 14);
 
   letter-spacing: -0.02em;
-
 }
 
 .container {
-/* mobile screen */
+  /* mobile screen */
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
