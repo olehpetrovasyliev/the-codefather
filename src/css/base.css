@@ -1,0 +1,42 @@
+body {
+  color: var(--color-black);
+  background-color: var(--color-white);
+
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+
+  letter-spacing: -0.02em;
+}
+
+.container {
+  /* mobile screen */
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    /* tablet */
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    /* desktop */
+    max-width: 1280px;
+    padding: 0 24px;
+
+  }
+}
+
+.section {
+  /* mobile section */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
