@@ -15,6 +15,9 @@
   font-style: normal;
   letter-spacing: -0.02em;
 }
+.contact-list-item:not(:last-child) {
+  margin-bottom: 25px;
+}
 .footer-content-thumb {
   display: flex;
   justify-content: space-between;
@@ -84,6 +87,7 @@
   display: flex;
   gap: 14px;
   color: #c6cdd1;
+  margin-bottom: 14px;
 }
 .rights,
 .condition {
