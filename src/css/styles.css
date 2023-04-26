@@ -36,7 +36,7 @@ body {
 
 .container {
   /* mobile screen */
-  max-width: 375;
+  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
   outline: 1px solid red;
