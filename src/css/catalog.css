@@ -160,11 +160,11 @@
     display: block;
     margin-left: auto;
     background-color: #1E2827;
-    border: none;
+    border: transparent;
     width: 122px;
     height: 50px;
     border-radius: 8px;
-    padding: 18px 35px 18px 35px;
+    padding: 14px 28px;
     margin-top: 40px;
 }
 
@@ -172,6 +172,13 @@
     .catalog-button {
         margin-top: 80px
     }
+}
+
+.catalog-button:hover,
+.catalog-button:focus {
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
 /* =========================== /BUTTON CATALOG ============================ */
@@ -186,3 +193,8 @@
 }
 
 /* =========================== /PHOTO DEKSTOP 9-12 ============================ */
+
+
+.my-element.animate {
+    animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
