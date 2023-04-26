@@ -13,8 +13,30 @@
   color: var(--color-white);
 }
 
+.swiper-wrapper {
+  margin-bottom: 20px;
+}
+
 .swiper-buttons {
+  display: flex;
   margin-bottom: 40px;
+}
+
+.swiper-btn {
+  display: block;
+  border: none;
+  background-color: transparent;
+}
+
+.swiper-btn-icon {
+  fill: transparent;
+  stroke: var(--color-white);
+}
+
+.swiper-pagination {
+  position: static;
+  --swiper-pagination-color: var(--color-white);
+  --swiper-pagination-fraction-color: var(--color-white);
 }
 
 .hero-desc {
