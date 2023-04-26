@@ -30,11 +30,20 @@
                 d="M11.297 7.335l-5.952 8.604 5.952 0.064 4.303-8.667c0.302-0.887 1.247-0.369 1.682 0-1.858-3.405-4.764-1.419-5.985 0zM17.066 21.756l5.952-8.604-5.952-0.064-4.303 8.667c-0.302 0.887-1.247 0.369-1.682 0 1.858 3.405 4.764 1.419 5.985 0z">
             </path>
         </symbol>
-        <symbol id="close-btn-window" viewBox="0 0 32 32">
-            <path fill="none" stroke="black" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4"
-                stroke-width="2.0800" d="M24 8l-16 16"></path>
-            <path fill="none" stroke="black" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4"
-                stroke-width="2.0800" d="M8 8l16 16"></path>
+        <!-- Hero icons -->
+        <symbol id="slider-btn-prev" viewBox="0 0 32 32">
+            <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.9412"
+                d="M8.472 0.471h15.061c4.419 0 8.001 3.582 8.001 8.001v15.061c0 4.419-3.582 8.001-8.001 8.001h-15.061c-4.419 0-8.001-3.582-8.001-8.001v-15.061c0-4.419 3.582-8.001 8.001-8.001z">
+            </path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.9412"
+                d="M18.12 20.238l-4.236-4.236 4.236-4.236"></path>
+        </symbol>
+        <symbol id="slider-btn-next" viewBox="0 0 32 32">
+            <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.9412"
+                d="M8.472 0.471h15.061c4.419 0 8.001 3.582 8.001 8.001v15.061c0 4.419-3.582 8.001-8.001 8.001h-15.061c-4.419 0-8.001-3.582-8.001-8.001v-15.061c0-4.419 3.582-8.001 8.001-8.001z">
+            </path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.9412"
+                d="M13.884 20.238l4.236-4.236-4.236-4.236"></path>
         </symbol>
     </defs>
-</svg>
+    </svg>
