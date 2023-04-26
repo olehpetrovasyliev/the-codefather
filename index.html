@@ -16,8 +16,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/vanilla-app-template/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-6dc2d9a0.css">
+    <script type="module" crossorigin src="/vanilla-app-template/assets/index-03f5ebd9.js"></script>
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-544e42f7.css">
   </head>
   <body>
     
@@ -436,7 +436,9 @@
       </li>
     </ul>
   </div>
-  <button class="button catalog-button" type="submit">Buy now</button>
+  <button class="button catalog-button" type="button" data-modal-open>
+    Buy now
+  </button>
 </section>
 
       <!--section New watches-->
@@ -687,82 +689,88 @@
 </footer>
 
     <!-- Modal window -->
-<div class="overlay">
+<div class="backdrop is-hidden" data-modal>
   <div class="modal">
-    <button class="close-modal">
-      <svg class="close-btn" width="10" height="10">
+    <button class="close-modal" type="button" data-modal-close>
+      <svg class="close-btn" width="20" height="20">
         <use href="../images/sprite.svg#close-btn-window"></use>
       </svg>
     </button>
-    <div>
-      <h3 class="modal-wind-title">
-        Tube Watch S42 Date Steel With Black Case
-      </h3>
-      <p class="modal-wind-info">&#8364;395</p>
-      <picture>
+    <div class="modal-img-clock">
+      <picture class="modal-clock-pic">
         <source
           srcset="
             ../images/buy-now/1clock_mob@1x.jpg 1x,
             ../images/buy-now/1clock_mob@2x.jpg 2x
           "
         />
-        <img src="../images/buy-now/1clock_mob@1x.jpg" alt="clock" />
+        <img
+          class="modal-clock"
+          src="../images/buy-now/1clock_mob@1x.jpg"
+          alt="clock"
+        />
       </picture>
+      <div class="modal-clock-text">
+        <h3 class="modal-wind-title">
+          Tube Watch S42 Date Steel With Black Case
+        </h3>
+        <p class="modal-wind-cost">&#8364;395</p>
+      </div>
     </div>
-    <div>
-      <form class="modal-wind-form">
-        <div class="modal-wind-field">
-          <label class="modal-wind-label" for="usname">Full name</label>
-          <input
-            class="modal-wind-input"
-            type="text"
-            name="username"
-            id="usname"
-            required
-            placeholder="Enter your full name"
-          />
-        </div>
-        <div class="modal-wind-field">
-          <label class="modal-wind-label" for="usemail">Email</label>
-          <input
-            class="modal-wind-input"
-            type="email"
-            name="email"
-            id="usemail"
-            required
-            placeholder="Enter your email"
-          />
-        </div>
-        <div class="modal-wind-field">
-          <label class="modal-wind-label" for="uscard">Card number</label>
-          <input
-            class="modal-wind-input"
-            type="text"
-            name="card-num"
-            placeholder="Enter card"
-            size="18"
-            id="uscard"
-            minlength="16"
-            maxlength="16"
-          />
-        </div>
-        <div class="modal-wind-field">
-          <label class="modal-wind-label">
-            Comments
-            <textarea name="feedback" rows="5" placeholder="Enter your text">
-            </textarea>
-          </label>
-        </div>
-        <button type="submit">Submit</button>
-        <div class="modal-wind-field">
-          <span class="modal-wind-desc">
-            By clicking on "Submit" button, you agree to our
-            <a class="modal-wind-link" href="">Privacy Policy</a>, and allow
-            Promodo to use this information for marketing purposes.
-          </span>
-        </div>
-      </form>
-    </div>
+    <form class="modal-wind-form">
+      <div class="modal-wind-field">
+        <label class="modal-wind-label" for="usname">Full name</label>
+        <input
+          class="modal-wind-input"
+          type="text"
+          name="username"
+          id="usname"
+          required
+          placeholder="Enter your full name"
+        />
+      </div>
+      <div class="modal-wind-field">
+        <label class="modal-wind-label" for="usemail">Email</label>
+        <input
+          class="modal-wind-input"
+          type="email"
+          name="email"
+          id="usemail"
+          required
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="modal-wind-field">
+        <label class="modal-wind-label" for="uscard">Card number</label>
+        <input
+          class="modal-wind-input"
+          type="text"
+          name="card-num"
+          placeholder="Enter card"
+          size="18"
+          id="uscard"
+          minlength="16"
+          maxlength="16"
+        />
+      </div>
+      <div class="modal-wind-field">
+        <label class="modal-wind-label" for="usmessage"> Comments</label>
+        <textarea
+          class="modal-wind-text"
+          name="feedback"
+          rows="8"
+          placeholder="Enter your text"
+          id="usmessage"
+        >
+        </textarea>
+      </div>
+      <button class="btn-sub" type="submit">SUBMIT</button>
+      <span class="modal-wind-desc">
+        By clicking on &#8220;Submit&#8221; button, you agree to our
+        <a class="modal-wind-link" href="">Privacy Policy</a>, and allow Promodo
+        to use this information for marketing purposes.
+      </span>
+    </form>
   </div>
 </div>
 
