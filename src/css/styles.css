@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./header.css');
 @import url('./hero.css');
 @import url('./about-us.css');
 @import url('./catalog.css');
@@ -41,6 +42,24 @@ body {
   margin: 0 auto;
   outline: 1px solid red;
 }
+@media only screen and (min-width: 768px) {
+  .container {
+      /* tablet */
+        max-width: 768px;
+        padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    /* desktop */
+        max-width: 1280px;
+          padding: 0 24px;
+     
+        }
+  }
+
+
 
 .section {
   /* mobile section */
