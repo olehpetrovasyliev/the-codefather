@@ -23,3 +23,15 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1158px;
+  }
+}
