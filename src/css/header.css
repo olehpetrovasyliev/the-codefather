@@ -1,6 +1,14 @@
 .header {
   background-color: var(--color-black);
 }
+.header.no-transparency {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.4)
+
+}
 
 .header-logo {
   font-weight: 400;
@@ -26,6 +34,7 @@
 .header-wrapper.container {
   display: flex;
   align-items: center;
+
 }
 
 
