@@ -8,6 +8,7 @@
 
     width: 100%;
     height: 100%;
+
 }
 
 .backdrop.is-hidden {
@@ -16,10 +17,17 @@
     pointer-events: none;
 }
 
+@media only screen and (min-width: 768px) {
+    .backdrop {
+        width: 744px;
+    }
+}
+
 /* div */
 .modal {
     max-width: 335px;
     width: 100%;
+    padding: 40px 20px;
 
     position: absolute;
     top: 50%;
@@ -28,6 +36,15 @@
     opacity: 1;
 
     background-color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal {
+        display: flex;
+        gap: 20px;
+        max-width: 664px;
+        padding: 40px;
+    }
 }
 
 /* button */
@@ -42,7 +59,6 @@
 
 /* picture */
 .modal-clock-pic {
-    padding-top: 66px;
     margin-bottom: 14px;
 
     display: flex;
@@ -73,6 +89,12 @@
 /* form */
 .modal-wind-form {
     margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-wind-form {
+        margin-top: 0;
+    }
 }
 
 /* div */
@@ -107,7 +129,6 @@
     padding-left: 16px;
 
     letter-spacing: -0.02em;
-    color: rgba(20, 20, 20, 0.5);
 
     resize: none;
     outline: transparent;
