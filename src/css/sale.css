@@ -1,0 +1,151 @@
+/**
+  |============================
+  | section Sale
+  |============================
+*/
+
+
+.sale-title {
+    margin-bottom: 40px;
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: calc(40/32);
+    letter-spacing: -0.02em;
+
+    color: var(--color-black);
+}
+
+.block-photos {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+
+.sale-list .item {
+    background-color: var(--color-black);
+}
+
+.sale-list .item:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-list .item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.big-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 235px;
+    width: 235px;
+    background-color: var(--color-black);
+}
+
+
+.description-title {
+    margin-bottom: 8px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(24/24);
+    letter-spacing: -0.02em;
+
+    color: var(--color-black);
+}
+
+.sale-description {
+    margin-bottom: 16px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18/14);
+    letter-spacing: -0.02em;
+
+    color: rgba(20, 20, 20, 0.5);
+}
+
+.price-blok {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/* .price-blok::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: var(--color-black);
+    width: 100%;
+    height: 1px;
+} */
+
+.new-price {
+    font-weight: 400;
+        font-size: 18px;
+        line-height: calc(24/18);
+        letter-spacing: -0.02em;
+    
+        color: var(--color-black);
+}
+
+.old-price {
+    font-weight: 400;
+        font-size: 12px;
+        line-height: calc(14/12);    
+        letter-spacing: -0.02em;
+        text-decoration-line: line-through;
+    
+        color: rgba(20, 20, 20, 0.5);
+}
+
+.sale-subtitle {
+    position: relative;
+    margin-bottom: 17px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(24/18);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: var(--color-black);
+}
+
+.sale-subtitle::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 16px;
+    height: 1px;
+    background: var(--color-black);
+}
+
+.description-watch {
+    margin-bottom: 40px;
+    letter-spacing: -0.01em;
+}
+
+.sale-wrapper::after {
+    content: '';
+    display: block;
+    margin-bottom: 8px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: var(--color-black);
+}
+
+/**
+  |============================
+  | /section Sale
+  |============================
+*/
