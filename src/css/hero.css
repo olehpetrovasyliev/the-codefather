@@ -13,17 +13,14 @@
   color: var(--color-white);
 }
 
-.swiper {
-  margin-bottom: 40px;
-}
-
 .swiper-wrapper {
+  gap: 70px;
   margin-bottom: 20px;
 }
 
+.swiper-slide,
 .swiper-slide-active {
   max-width: 266px;
-  margin-right: 70px;
   background-color: var(--color-dark-green);
 }
 
@@ -35,6 +32,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  max-width: 266px;
+  margin-bottom: 40px;
 }
 
 .swiper-buttons {
@@ -85,6 +84,8 @@
 }
 
 .hero-desc {
+  width: 248px;
+  margin-left: auto;
   margin-bottom: 40px;
 
   font-weight: 300;
