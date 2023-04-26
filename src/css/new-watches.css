@@ -3,23 +3,20 @@
   | section New watches
   |============================
 */
-.watches {
-   
-    
-}
+.new-watches {}
 
 .container {}
 
-.watches-title {
+.new-watches-title {
     margin-bottom: 8px;
-
+    font-weight: 300;
     font-size: 12px;
     line-height: calc(14/12);
     letter-spacing: 0.06em;
     color: rgba(20, 20, 20, 0.4);
 }
 
-.watches-description {
+.new-watches-description {
     margin-bottom: 40px;
 
     font-weight: 600;
@@ -30,11 +27,11 @@
     color: var(--color-black);
 }
 
-.watches-list {
+.new-watches-list {
 
 }
 
-.watches-list .item:not(:last-child) {
+.new-watches-list .item:not(:last-child) {
     margin-bottom: 20px;
 }
 
