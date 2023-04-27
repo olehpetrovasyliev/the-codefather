@@ -10,10 +10,11 @@ body {
   letter-spacing: -0.02em;
 }
 
-.section {
-  /* mobile section */
-  padding-top: 40px;
-  padding-bottom: 40px;
+@media only screen and (max-width: 768px) {
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 @media only screen and (min-width: 768px) {

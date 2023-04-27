@@ -60,14 +60,22 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-  }
 
-  .header-list {
     font-weight: 400;
     font-size: 9px;
     line-height: calc(12 / 9);
     text-transform: uppercase;
     color: #FFFFFF;
+
+    transition-property: letter-spacing ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 200ms;
+  }
+
+  .header-list:hover,
+  .header-list:focus {
+    letter-spacing: 0.5em;
   }
 }
 
@@ -86,6 +94,7 @@
 
   .address-nav {
     display: flex;
+    font-style: inherit;
   }
 
 
@@ -144,6 +153,7 @@
   height: 100vh;
   padding: 20px;
   background-color: var(--color-dark-green);
+  z-index: 9999;
 
 
   transform: translateX(100%);
