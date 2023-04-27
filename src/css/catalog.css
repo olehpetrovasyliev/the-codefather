@@ -68,7 +68,7 @@
 @media only screen and (min-width: 1280px) {
     .over-descr {
         margin-bottom: 20px;
-        margin-right: 20px;
+        margin-right: 25px;
     }
 }
 
@@ -83,9 +83,10 @@
 
 .catalog-name {
     font-weight: 600;
-    font-size: 32px;
-    line-height: 1.25;
+    font-size: 40px;
+    line-height: 1.1;
     color: var(--color-dark-green);
+    letter-spacing: -0.02em;
     text-align: left;
     offset: 0px, 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 40px;
@@ -95,6 +96,7 @@
     max-height: 18px;
     overflow: hidden;
     line-height: 1.29;
+    letter-spacing: -0.02em;
     color: var(--color-black);
     text-align: left;
 }
@@ -102,6 +104,7 @@
 .catalog-price {
     font-size: 12px;
     line-height: 1.6;
+    letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.5);
     text-align: left;
 }
