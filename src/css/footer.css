@@ -1,4 +1,116 @@
 .footer {
   background-color: var(--color-dark-green);
   color: var(--color-white);
+  font-weight: 400;
+}
+
+.footer-logo {
+  margin-bottom: 40px;
+}
+.contact-list {
+  max-width: 141px;
+}
+.contact {
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.02em;
+}
+.contact-list-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+@media only screen and (min-width: 768px) {
+  .contact-list-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.footer-content-thumb {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-content-thumb {
+    max-width: 398px;
+    gap: 136px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-content-thumb {
+    min-width: 645px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .footer-all-items-thumb {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-menu {
+    gap: 18px;
+  }
+}
+.footer-menu-li {
+  width: 63px;
+}
+.footer-menu-item {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+}
+
+.footer-sotial-box {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-sotial-box {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.social-list {
+  display: flex;
+  gap: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .social-list {
+    gap: 16px;
+  }
+}
+.rights {
+  margin-bottom: 14px;
+}
+.conditions {
+  display: flex;
+  gap: 14px;
+  color: #c6cdd1;
+  margin-bottom: 14px;
+}
+@media only screen and (min-width: 768px) {
+  .conditions {
+    gap: 18px;
+  }
+}
+.rights,
+.condition {
+  color: var(--color-footer);
+}
+@media only screen and (min-width: 768px) {
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+  }
 }
