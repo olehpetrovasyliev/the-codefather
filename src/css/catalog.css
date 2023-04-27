@@ -9,13 +9,10 @@
 
 .overflov {
     position: absolute;
-    left: 32px;
-    top: 40px;
     left: 0;
     top: 0;
-    /* padding: 20px 10px; */
+    padding: 20px 10px;
     padding-left: 40px;
-    padding-top: 40px;
     color: #FFFFFF;
     background-color: var(--color-dark-green);
     width: 100%;
@@ -27,8 +24,15 @@
     opacity: 1;
 }
 
+@media only screen and (min-width: 786px) {
+    .overflov {
+        padding-top: 40px;
+    }
+}
+
 @media only screen and (min-width: 1280px) {
     .overflov {
+        padding-top: 40px;
         padding-left: 20px;
         padding-top: 20px;
     }
@@ -48,7 +52,18 @@
 .over-descrip {
     text-align: left;
     color: var(--color-white);
-    padding-bottom: 4px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 1280px) {
+    .over-descrip {
+        padding-bottom: 10px;
+        
+    }
+}
+
+.ov-descr {
+    padding-top: 20px;
 }
 
 /* .over-des {
@@ -141,8 +156,15 @@
 }
 
 .catalog-img {
-    margin-bottom: 43px;
+    margin-bottom: 14px;
     
+}
+
+@media only screen and (min-width: 1280px) {
+    .catalog-img {
+        margin-top: 26px;
+        margin-bottom: 25px;
+    }
 }
 
 /* =========================== /CATALOG DESIGN ============================ */
@@ -198,3 +220,7 @@
 .my-element.animate {
     animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+/* .second.animate {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+} */
