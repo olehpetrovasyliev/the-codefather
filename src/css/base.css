@@ -10,6 +10,11 @@ body {
   letter-spacing: -0.02em;
 }
 
+.section {
+  /* mobile section */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .container {
   /* mobile screen */
   max-width: 375px;
@@ -18,8 +23,15 @@ body {
   outline: 1px solid red;
 }
 
-.section {
-  /* mobile section */
-  padding-top: 40px;
-  padding-bottom: 40px;
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1158px;
+  }
 }
