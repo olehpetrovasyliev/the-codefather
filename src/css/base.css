@@ -10,6 +10,12 @@ body {
   letter-spacing: -0.02em;
 }
 
+
+.section {
+  /* mobile section */
+  padding-top: 40px;
+  padding-bottom: 40px;
+
 .container {
   /* mobile screen */
   max-width: 375px;
@@ -20,7 +26,9 @@ body {
 
 @media only screen and (min-width: 768px) {
   .container {
+
     /* tablet */
+
     max-width: 768px;
     padding: 0 32px;
   }
@@ -35,8 +43,5 @@ body {
   }
 }
 
-.section {
-  /* mobile section */
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
+
+
