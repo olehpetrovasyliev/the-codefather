@@ -75,15 +75,6 @@
     margin-bottom: 40px;
 }
 
-/* .price-blok::after {
-    content: '';
-    display: block;
-    position: absolute;
-    background: var(--color-black);
-    width: 100%;
-    height: 1px;
-} */
-
 .new-price {
     font-weight: 400;
         font-size: 18px;
