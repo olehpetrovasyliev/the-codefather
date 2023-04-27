@@ -69,6 +69,12 @@
   width: 40px;
   height: 40px;
 }
+@media only screen and (min-width: 768px) {
+  .footer-sotial-box {
+    width: 44px;
+    height: 44px;
+  }
+}
 
 .social-list {
   display: flex;
@@ -89,7 +95,18 @@
   color: #c6cdd1;
   margin-bottom: 14px;
 }
+@media only screen and (min-width: 768px) {
+  .conditions {
+    gap: 18px;
+  }
+}
 .rights,
 .condition {
   color: var(--color-footer);
+}
+@media only screen and (min-width: 768px) {
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+  }
 }
