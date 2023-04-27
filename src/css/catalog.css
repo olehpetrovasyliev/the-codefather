@@ -218,6 +218,6 @@
     animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-/* .second.animate {
-    animation: heartbeat 1.5s ease-in-out infinite both;
-} */
+.catalog-button.heartbeat {
+    animation: heartbeat 2s ease-in-out 2s both;
+}
