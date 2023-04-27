@@ -18,10 +18,21 @@
 .contact-list {
   max-width: 141px;
 }
+@media only screen and (min-width: 768px) {
+  .contact-list {
+    max-width: 181px;
+  }
+}
 .contact {
+  min-width: 175px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .contact {
+    font-size: 18px;
+  }
 }
 .contact-list-item:not(:last-child) {
   margin-bottom: 25px;
@@ -63,6 +74,14 @@
     margin-bottom: 174px;
   }
 }
+.logo-adress-thumb {
+  max-width: 141px;
+}
+@media only screen and (min-width: 768px) {
+  .logo-adress-thumb {
+    max-width: 181px;
+  }
+}
 .footer-menu {
   display: flex;
   flex-direction: column;
@@ -74,13 +93,32 @@
   }
 }
 .footer-menu-li {
-  width: 63px;
+  max-width: 63px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-menu-li {
+    max-width: 81px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-menu-li {
+    max-width: 115px;
+  }
+}
+.footer-menu-li:hover,
+.footer-menu-li:focus {
+  letter-spacing: 0.5em;
 }
 .footer-menu-item {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 14px;
   letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .footer-menu-item {
+    font-weight: 400;
+    font-size: 18px;
+  }
 }
 
 .footer-sotial-box {
@@ -125,10 +163,12 @@
 .rights,
 .condition {
   color: var(--color-footer);
+  font-size: 12px;
 }
 @media only screen and (min-width: 768px) {
   .footer-info {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
   }
 }
