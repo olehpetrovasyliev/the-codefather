@@ -82,8 +82,8 @@
     transition-delay: 200ms;
   }
 
-  .header-list:hover,
-  .header-list:focus {
+  .header-link:hover,
+  .header-link:focus {
     letter-spacing: 0.5em;
   }
 }
