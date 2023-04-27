@@ -145,14 +145,8 @@
     width: calc((100% - 3 * 24px) / 4);
   }
 }
-
-.catalog-img {
-<<<<<<< Updated upstream
+.catalog-img{
   margin-bottom: 14px;
-=======
-    margin-bottom: 14px;
-
->>>>>>> Stashed changes
 }
 
 @media only screen and (min-width: 1280px) {
@@ -192,14 +186,9 @@
 
 .catalog-button:hover,
 .catalog-button:focus {
-<<<<<<< Updated upstream
-  border: 1px solid #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-=======
     border: 1px solid #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
->>>>>>> Stashed changes
 }
 
 /* =========================== /BUTTON CATALOG ============================ */
