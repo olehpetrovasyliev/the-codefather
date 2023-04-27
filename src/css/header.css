@@ -152,16 +152,19 @@
   width: 100vw;
   height: 100vh;
   padding: 20px;
+
   background-color: var(--color-dark-green);
   z-index: 9999;
 
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+
 }
 
 .menu-container.is-open {
   transform: translateX(0);
+ 
 }
 
 .menu-container .menu-toggle {
@@ -183,6 +186,7 @@
   padding: 0px;
   gap: 14px;
   margin-top: 253px;
+
 }
 
 .menu-text {
