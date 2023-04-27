@@ -1,35 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/the-codefather/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Watch Spot</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&family=Raleway:wght@800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
 
-    
-    <script type="module" crossorigin src="/the-codefather/assets/index-03f5ebd9.js"></script>
-    <link rel="stylesheet" href="/the-codefather/assets/index-2d7d2ae8.css">
-  </head>
-  <body>
-    
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/the-codefather/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Watch Spot</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&family=Raleway:wght@800&display=swap"
+    rel="stylesheet" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-    <main>
-      <section class="hero section">
+  
+  <script type="module" crossorigin src="/the-codefather/assets/index-e1fef0a7.js"></script>
+  <link rel="stylesheet" href="/the-codefather/assets/index-fd0e83f2.css">
+</head>
+
+<body>
+  <header class="header" data-header>
+  <div class="header-wrapper container"><a class="header-logo" href="../index.html">
+      <svg width="19" height="19">
+        <use href="../images/sprite.svg#icon-logo">
+        </use>
+      </svg><span>thewatchspot</span></a>
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-item"><a class="header-link" href="#about">About us</a></li>
+        <li class="header-item"><a class="header-link" href="#catalog">Catalog</a></li>
+        <li class="header-item"><a class="header-link" href="#sale">Sale</a></li>
+      </ul>
+    </nav>
+    <address class="address-nav">
+      <ul class="address-list">
+        <li class="address-item"><a class="address-link" href="tel:+380684439426">+380 (68) 443-94-26</a></li>
+      </ul>
+    </address>
+    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg class="menu-toggle-icon" width="24" height="24">
+        <use href="../images/sprite.svg#icon-burger"></use>
+      </svg>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <a class="header-logo menu" href="../index.html">
+    <svg class="menu-logo" width="22" height="22">
+      <use href="../images/sprite.svg#icon-logo">
+      </use>
+    </svg><span>thewatchspot</span></a>
+
+  <button class="menu-toggle js-close-menu">
+    <svg class="menu-close" width="24" height="24">
+      <use href="../images/sprite.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <ul class="mobile-menu">
+    <li>
+      <a class="menu-text" href="./about-us.html" class="link">About us</a>
+    </li>
+    <li>
+      <a class="menu-text" href="./catalog.html" class="link">Catalog</a>
+    </li>
+    <li>
+      <a class="menu-text" href="./sale.html" class="link">Sale</a>
+    </li>
+
+  </ul>
+</div>
+  <main>
+    <section class="hero section">
   <div class="container">
     <h1 class="hero-title">Welcome to our collection of premium watches</h1>
     <div class="swiper mySwiper">
@@ -119,7 +165,7 @@
   </div>
 </section>
 
-      <section class="section catalog-sect">
+    <section class="section catalog-sect">
   <div class="container catalog-cont">
     <h2 class="catalog-name my-element">Catalog</h2>
     <ul class="catalog-menu">
@@ -628,7 +674,7 @@
   </div>
 </section>
 
-      <!--section New watches-->
+    <!--section New watches-->
 <section class="section new-watches">
   <div class="container">
     <h2 class="new-watches-title">New watches</h2>
@@ -695,7 +741,7 @@
   </div>
 </section>
 
-      <!--section Sale-->
+    <!--section Sale-->
 <section class="section sale">
   <div class="container">
     <h2 class="sale-title">Sale</h2>
@@ -835,14 +881,14 @@
   </div>
 </section>
 
-    </main>
-    <footer class="section footer">
+  </main>
+  <footer class="section footer">
   <div class="container footer-wrapper">
     <div class="footer-all-items-thumb">
       <div class="footer-content-thumb">
         <div class="logo-adress-thumb">
           <svg width="40" height="40" class="footer-logo">
-            <use href="/the-codefather/assets/sprite-439fc285.svg#icon-logo-footer-small"></use>
+            <use href="/the-codefather/assets/sprite-72562a17.svg#icon-logo-footer-small"></use>
           </svg>
           <address>
             <ul class="list contact-list">
@@ -913,7 +959,7 @@
   </div>
 </footer>
 
-    <!-- Modal window -->
+  <!-- Modal window -->
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button class="close-modal" type="button" data-modal-close>
@@ -999,14 +1045,18 @@
   </div>
 </div>
 
-    
+  
 
-    
-    
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="./js/swiper-initialize.js"></script>
+  
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./js/swiper-initialize.js"></script>
 
-    <script src="./js/annimator.js"></script>
-  </body>
+  <script src="./js/annimator.js"></script>
+
+  <script src="./js/header.js"></script>
+  
+</body>
+
 </html>
