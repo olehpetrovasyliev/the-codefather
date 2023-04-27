@@ -1,9 +1,23 @@
-const element = document.querySelector('.my-element');
+const elements = document.querySelectorAll('.my-element');
+
+elements.forEach(element => {
+  const observer = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting) {
+      element.classList.add('animate');
+    } else {
+      element.classList.remove('animate');
+    }
+  });
+  observer.observe(element);
+});
+
+const btnElement = document.querySelector('.catalog-button');
+
 const observer = new IntersectionObserver(entries => {
   if (entries[0].isIntersecting) {
-    element.classList.add('animate');
+    btnElement.classList.add('heartbeat');
   } else {
-    element.classList.remove('animate');
+    btnElement.classList.remove('heartbeat');
   }
 });
-observer.observe(element);
+observer.observe(btnElement);

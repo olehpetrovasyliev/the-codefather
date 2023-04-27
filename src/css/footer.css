@@ -32,6 +32,7 @@
   .footer-content-thumb {
     max-width: 398px;
     gap: 136px;
+    margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -39,10 +40,19 @@
     min-width: 645px;
   }
 }
+.footer-all-items-thumb {
+  margin-bottom: 80px;
+}
 @media only screen and (min-width: 768px) {
   .footer-all-items-thumb {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 152px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-all-items-thumb {
+    margin-bottom: 174px;
   }
 }
 .footer-menu {
