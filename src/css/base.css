@@ -15,6 +15,21 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+@media only screen and (min-width: 768px) {
+  .section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
 .container {
   /* mobile screen */
   max-width: 375px;
@@ -25,6 +40,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .container {
+    /* tablet */
     max-width: 768px;
     padding: 0 32px;
   }
@@ -32,6 +48,9 @@ body {
 
 @media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1158px;
+    /* desktop */
+    max-width: 1280px;
+    padding: 0 52px;
+
   }
 }
