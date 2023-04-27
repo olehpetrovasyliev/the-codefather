@@ -40,14 +40,14 @@
     transform: translate(0, 0);
 }
 
-.over-descrip {
+.overflow-subtitle {
     text-align: left;
     color: var(--color-white);
     margin-bottom: 10px;
     letter-spacing: -0.02em;
 }
 
-.over-descript-second {
+.overflow-description {
     text-align: left;
     letter-spacing: -0.01em;
     color: rgba(255, 255, 255, 0.5);
