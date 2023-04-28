@@ -1,5 +1,6 @@
 .header {
   background-color: var(--color-black);
+  padding-top: 20px;
 }
 
 .header.no-transparency {
@@ -31,19 +32,21 @@
   display: none;
 }
 
-.address-nav {
+.tel-link {
   display: none;
 }
 
 .header-wrapper.container {
   display: flex;
   align-items: center;
+  
 }
 
 .header-logo {
   display: flex;
   align-items: center;
-  margin-right: 80px;
+  
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -52,14 +55,26 @@
     font-size: 15px;
     line-height: calc(15 / 15);
     letter-spacing: -0.03em;
+    margin-right: 80px;
   }
 
   .header-nav {
+  
     display: flex;
     margin-right: auto;
+   
   }
 
+  .header-item{
+    position: relative;
+  }
+     .header-link::after {
+   
+
+     }
+
   .header-list {
+      
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,17 +84,21 @@
     font-size: 9px;
     line-height: calc(12 / 9);
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--color-white);
 
-    transition-property: letter-spacing;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-delay: 200ms;
   }
 
-  .header-link:hover,
-  .header-link:focus {
-    letter-spacing: 0.2em;
+  .header-link:hover::after, 
+  .header-link:focus::after {
+    position: absolute; 
+
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-white);
+    border-radius: 4px;
+  
+    display: block;
   }
 }
 
@@ -99,13 +118,17 @@
     justify-content: center;
     font-style: inherit;
 
-    margin: 20px 0;
     font-size: 9px;
     line-height: calc(12 / 9);
         
     text-transform: uppercase;
-        
   }
+
+    .tel-link:hover,
+    .tel-link:focus {
+          border: 1px solid #ffffff;
+
+    }
   }
 
 
