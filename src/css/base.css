@@ -45,7 +45,7 @@ body {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 @media only screen and (min-width: 768px) {
