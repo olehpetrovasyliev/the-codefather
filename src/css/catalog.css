@@ -171,11 +171,17 @@
   margin-left: auto;
   background-color: #1e2827;
   border: transparent;
-  width: 122px;
-  height: 50px;
+  min-width: 108px;
+  height: 42px;
   border-radius: 8px;
-  padding: 14px 28px;
   margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog-button {
+    min-width: 122px;
+    height: 50px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
