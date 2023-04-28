@@ -73,8 +73,8 @@
     transition-delay: 200ms;
   }
 
-  .footer-menu-item:hover,
-  .footer-menu-item:focus {
+  .header-link:hover,
+  .header-link:focus {
     letter-spacing: 0.2em;
   }
 }
