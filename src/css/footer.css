@@ -105,9 +105,9 @@
     max-width: 115px;
   }
 }
-.footer-menu-li:hover,
-.footer-menu-li:focus {
-  letter-spacing: 0.5em;
+.footer-menu-item:hover,
+.footer-menu-item:focus {
+  letter-spacing: 0.2em;
 }
 .footer-menu-item {
   text-transform: uppercase;
