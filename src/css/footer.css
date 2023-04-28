@@ -109,6 +109,12 @@
 .footer-menu-item:focus {
   letter-spacing: 0.2em;
 }
+@media only screen and (max-width: 767px) {
+  .footer-menu-item:hover,
+  .footer-menu-item:focus {
+    letter-spacing: -0.02em;
+  }
+}
 .footer-menu-item {
   text-transform: uppercase;
   font-weight: 400;
