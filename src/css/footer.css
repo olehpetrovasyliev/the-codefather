@@ -107,7 +107,7 @@
 }
 .footer-menu-item:hover,
 .footer-menu-item:focus {
-  letter-spacing: 0.2em;
+  text-decoration: underline;
 }
 @media only screen and (max-width: 767px) {
   .footer-menu-item:hover,
