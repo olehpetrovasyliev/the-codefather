@@ -62,16 +62,12 @@
   
     display: flex;
     margin-right: auto;
-   
+  
   }
 
   .header-item{
     position: relative;
   }
-     .header-link::after {
-   
-
-     }
 
   .header-list {
       
@@ -209,6 +205,6 @@
 .mobile-menu .link {
   display: block;
   padding: 10px;
-  color: #fff;
+  color: var(--color-white);
   text-decoration: none;
 }
