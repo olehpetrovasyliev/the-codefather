@@ -20,6 +20,7 @@
 /* div */
 .modal {
     max-width: 335px;
+    max-height: 700px;
     width: 100%;
     padding: 40px 20px;
 
@@ -28,6 +29,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
+    overflow-y: auto;
 
     background-color: #ffffff;
 
