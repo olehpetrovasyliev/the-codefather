@@ -14,8 +14,22 @@
   }
 }
 
-.about-text-item {
-  margin-bottom: 20px;
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-first {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-first {
+    width: 892px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-text-item {
+    margin-bottom: 20px;
+  }
 }
 
 .about-gif {
@@ -38,7 +52,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    padding: 0 32px;
   }
 
   .about-title {
@@ -89,7 +102,8 @@
     font-size: 40px;
     font-weight: 600;
     line-height: calc(44 / 40);
-    margin-right: 110px;
+
+    margin-right: auto;
     margin-bottom: 0;
   }
 
