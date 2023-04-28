@@ -215,7 +215,9 @@
   animation: heartbeat 2s ease-in-out 2s both;
 }
 
+
 /* =========================== /ANIMATION FOR BUTTON AND TEXT ============================ */
+
 
 /* =========================== ANIMATION HEART ============================ */
 .catalog-icon {
@@ -234,7 +236,6 @@
   stroke: rgba(255, 255, 255, 0.1);
   z-index: 10;
 }
-
 
 .catalog-icon.active {
   fill: rgba(103, 121, 89, 0.91);
