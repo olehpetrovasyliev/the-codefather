@@ -51,7 +51,6 @@
 .overflow-subtitle {
   color: var(--color-white);
   margin-bottom: 10px;
-  letter-spacing: -0.02em;
 }
 
 .overflow-description {
@@ -87,7 +86,7 @@
   font-size: 40px;
   line-height: 1.1;
   color: var(--color-dark-green);
-  letter-spacing: -0.02em;
+
   margin-bottom: 40px;
 }
 
@@ -95,14 +94,14 @@
   max-height: 18px;
   overflow: hidden;
   line-height: 1.29;
-  letter-spacing: -0.02em;
+
   color: var(--color-black);
 }
 
 .catalog-price {
   font-size: 12px;
   line-height: 1.6;
-  letter-spacing: -0.02em;
+
   color: rgba(20, 20, 20, 0.5);
   text-align: left;
 }
@@ -216,7 +215,6 @@
   animation: heartbeat 2s ease-in-out 2s both;
 }
 
-
 /* =========================== ANIMATION HEART ============================ */
 .catalog-icon {
   position: absolute;
@@ -234,7 +232,6 @@
   stroke: rgba(255, 255, 255, 0.1);
   z-index: 10;
 }
-
 
 .catalog-icon.active {
   fill: rgba(103, 121, 89, 0.91);
