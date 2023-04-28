@@ -4,6 +4,14 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 14px;
+  padding: 43px 30px;
+}
+
+@media only screen and (min-width: 1280px) {
+  .cat-list-link-wrapper {
+    padding-top: 26px;
+    padding-bottom: 25px;
+  }
 }
 
 .overflov {
@@ -101,7 +109,7 @@
 
 .catalog-sect {
   background-color: var(--color-white);
-  /* margin: 40px 0; */
+  
 }
 
 .catalog-menu {
@@ -139,9 +147,6 @@
   .catalog-item {
     width: calc((100% - 3 * 24px) / 4);
   }
-}
-.catalog-img {
-  margin-bottom: 14px;
 }
 
 @media only screen and (min-width: 1280px) {
