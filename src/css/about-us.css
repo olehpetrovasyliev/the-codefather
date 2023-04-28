@@ -43,6 +43,7 @@
 
   .about-title {
     font-size: 40px;
+    margin-bottom: 0;
   }
 
   .about-text-item:last-child {
@@ -89,6 +90,7 @@
     font-weight: 600;
     line-height: calc(44 / 40);
     margin-right: 110px;
+    margin-bottom: 0;
   }
 
   .about-list {
