@@ -9,6 +9,8 @@
     height: 100%;
 
     transition: opacity 250ms linear, visibility 250ms linear;
+    background-color: rgba(20, 20, 20, 0.4);
+    backdrop-filter: blur(1.3px);
 }
 
 .backdrop.is-hidden {
