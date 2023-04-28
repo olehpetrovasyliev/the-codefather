@@ -51,7 +51,6 @@
 .overflow-subtitle {
   color: var(--color-white);
   margin-bottom: 10px;
-  letter-spacing: -0.02em;
 }
 
 .overflow-description {
@@ -87,7 +86,7 @@
   font-size: 40px;
   line-height: 1.1;
   color: var(--color-dark-green);
-  letter-spacing: -0.02em;
+
   margin-bottom: 40px;
 }
 
@@ -95,21 +94,19 @@
   max-height: 18px;
   overflow: hidden;
   line-height: 1.29;
-  letter-spacing: -0.02em;
+
   color: var(--color-black);
 }
 
 .catalog-price {
   font-size: 12px;
   line-height: 1.6;
-  letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.5);
   text-align: left;
 }
 
 .catalog-sect {
   background-color: var(--color-white);
-  
 }
 
 .catalog-menu {
@@ -208,6 +205,8 @@
 
 /* =========================== /PHOTO DEKSTOP 9-12 ============================ */
 
+/* =========================== ANIMATION FOR BUTTON AND TEXT ============================ */
+
 .my-element.animate {
   animation: focus-in-expand-fwd 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -216,6 +215,7 @@
   animation: heartbeat 2s ease-in-out 2s both;
 }
 
+/* =========================== /ANIMATION FOR BUTTON AND TEXT ============================ */
 
 /* =========================== ANIMATION HEART ============================ */
 .catalog-icon {
