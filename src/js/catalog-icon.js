@@ -36,4 +36,11 @@ document.addEventListener('mouseout', (event) => {
       link.setAttribute('href', '#');
     }
   }
+  const linkHovers = document.querySelectorAll('.link-hover');
+linkHovers.forEach((linkHover) => {
+  linkHover.addEventListener('mouseleave', (event) => {
+    const target = event.currentTarget;
+    target.blur();
+  });
+});
 });
