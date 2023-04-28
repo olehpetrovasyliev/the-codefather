@@ -4,129 +4,26 @@
       <div class="footer-content-thumb">
         <div class="logo-adress-thumb">
           <a href="./index.html">
-            <svg
-              style="
-                position: absolute;
-                width: 0;
-                height: 0;
-                visibility: hidden;
-              "
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <defs>
-                <!-- Gradients & filters start -->
-                <linearGradient
-                  id="upper-part-gradient"
-                  x1="55.224"
-                  y1="44.006"
-                  x2="42.72"
-                  y2="20.613"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop />
-                  <stop offset=".495" stop-color="#fff" />
-                  <stop offset="1" stop-color="#fff" />
-                </linearGradient>
-                <linearGradient
-                  id="lower-part-gradient"
-                  x1="22.84"
-                  y1="35.93"
-                  x2="35.39"
-                  y2="59.353"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#0C0C0C" />
-                  <stop offset=".495" stop-color="#fff" />
-                  <stop offset="1" stop-color="#fff" />
-                </linearGradient>
-
-                <filter
-                  id="upper-part-filter"
-                  x="11.632"
-                  y=".422"
-                  width="66.319"
-                  height="67.584"
-                  filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
-                >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                  <feColorMatrix
-                    in="SourceAlpha"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    result="hardAlpha"
-                  />
-                  <feOffset dy="4" />
-                  <feGaussianBlur stdDeviation="10" />
-                  <feComposite in2="hardAlpha" operator="out" />
-                  <feColorMatrix
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-                  />
-                  <feBlend
-                    in2="BackgroundImageFix"
-                    result="effect1_dropShadow_74_1181"
-                  />
-                  <feBlend
-                    in="SourceGraphic"
-                    in2="effect1_dropShadow_74_1181"
-                    result="shape"
-                  />
-                </filter>
-                <filter
-                  id="lower-part-filter"
-                  x=".113"
-                  y="19.93"
-                  width="66.319"
-                  height="67.649"
-                  filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
-                >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                  <feColorMatrix
-                    in="SourceAlpha"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    result="hardAlpha"
-                  />
-                  <feOffset dy="4" />
-                  <feGaussianBlur stdDeviation="10" />
-                  <feComposite in2="hardAlpha" operator="out" />
-                  <feColorMatrix
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-                  />
-                  <feBlend
-                    in2="BackgroundImageFix"
-                    result="effect1_dropShadow_74_1181"
-                  />
-                  <feBlend
-                    in="SourceGraphic"
-                    in2="effect1_dropShadow_74_1181"
-                    result="shape"
-                  />
-                </filter>
-                <!-- Gradients & filters end -->
-                <symbol id="logo" viewBox="0 0 78 88">
-                  <g filter="url(#upper-part-filter)">
-                    <path
-                      d="M57.951 44.006 47.408 19.854l-2.3-1.593-2.695-.858-3.646-.981-4.281 1.839-2.854 1.593 10.781 24.152h15.538Z"
-                      fill="url(#upper-part-gradient)"
-                    />
-                  </g>
-                  <g filter="url(#lower-part-filter)">
-                    <path
-                      d="m20.113 35.93 10.544 24.208 2.299 1.597 2.695.86 3.647.983 4.28-1.843 2.854-1.597L35.651 35.93H20.113Z"
-                      fill="url(#lower-part-gradient)"
-                    />
-                  </g>
-                  <path
-                    d="M31.068 20.17 14.7 43.83l16.368.175L42.9 20.17c.831-2.438 3.43-1.016 4.626 0-5.11-9.363-13.101-3.901-16.458 0ZM46.932 59.83 63.3 36.17l-16.368-.175L35.099 59.83c-.83 2.438-3.43 1.016-4.625 0 5.11 9.363 13.101 3.901 16.458 0Z"
-                    fill="#fff"
-                  />
-                </symbol>
-              </defs>
-            </svg>
-
-            <svg class="footer-logo">
-              <use xlink:href="#logo" />
-            </svg>
+            <picture class="footer-logo">
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/logo-footer-small-x1.png 1x,
+                  ./images/logo-footer-small-x2.png 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/footer-logo/logo-footer-big-x1.png 1x,
+                  ./images/footer-logo/logo-footer-big-x2.png 2x
+                "
+              />
+              <img
+                src="./images/footer-logo/logo-footer-big-x1.png"
+                alt="logo"
+              />
+            </picture>
           </a>
           <address>
             <ul class="list contact-list">
@@ -167,7 +64,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg width="24" height="24">
+            <svg width="24" height="24" aria-label="facebook">
               <use href="./images/sprite.svg#icon-facebook"></use>
             </svg>
           </a>
@@ -179,7 +76,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg width="24" height="24">
+            <svg width="24" height="24" aria-label="instagram">
               <use href="./images/sprite.svg#icon-instagram"></use>
             </svg>
           </a>
@@ -191,7 +88,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg width="24" height="24">
+            <svg width="24" height="24" aria-label="youtube">
               <use href="./images/sprite.svg#icon-youtube"></use>
             </svg>
           </a>
