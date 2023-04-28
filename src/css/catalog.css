@@ -12,7 +12,7 @@
   top: 0;
   padding-top: 40px;
   padding-left: 40px;
-  color: #ffffff;
+  color: var(--color-white);
   background-color: var(--color-dark-green);
   width: 100%;
   height: 100%;
@@ -41,14 +41,12 @@
 }
 
 .overflow-subtitle {
-  text-align: left;
   color: var(--color-white);
   margin-bottom: 10px;
   letter-spacing: -0.02em;
 }
 
 .overflow-description {
-  text-align: left;
   letter-spacing: -0.01em;
   color: rgba(255, 255, 255, 0.5);
   max-width: 236px;
@@ -82,8 +80,6 @@
   line-height: 1.1;
   color: var(--color-dark-green);
   letter-spacing: -0.02em;
-  text-align: left;
-  offset: 0px, 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 40px;
 }
 
@@ -93,7 +89,6 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--color-black);
-  text-align: left;
 }
 
 .catalog-price {
@@ -169,7 +164,7 @@
 
   display: block;
   margin-left: auto;
-  background-color: #1e2827;
+  background-color: var(--color-dark-green);
   border: transparent;
   min-width: 108px;
   height: 42px;
@@ -192,7 +187,7 @@
 
 .catalog-button:hover,
 .catalog-button:focus {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
