@@ -64,6 +64,7 @@
     margin-right: 65px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .over-descr {
     margin-bottom: 20px;
@@ -144,8 +145,7 @@
     width: calc((100% - 3 * 24px) / 4);
   }
 }
-
-.catalog-img {
+.catalog-img{
   margin-bottom: 14px;
 }
 
@@ -186,8 +186,9 @@
 
 .catalog-button:hover,
 .catalog-button:focus {
-  border: 1px solid #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .catalog-icon {

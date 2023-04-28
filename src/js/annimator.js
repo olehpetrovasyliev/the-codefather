@@ -1,5 +1,4 @@
 const elements = document.querySelectorAll('.my-element');
-
 elements.forEach(element => {
   const observer = new IntersectionObserver(entries => {
     if (entries[0].isIntersecting) {
@@ -10,9 +9,7 @@ elements.forEach(element => {
   });
   observer.observe(element);
 });
-
 const btnElement = document.querySelector('.catalog-button');
-
 const observer = new IntersectionObserver(entries => {
   if (entries[0].isIntersecting) {
     btnElement.classList.add('heartbeat');

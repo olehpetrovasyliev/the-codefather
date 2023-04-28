@@ -6,14 +6,33 @@
 
 .footer-logo {
   margin-bottom: 40px;
+  width: 40px;
+  height: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-logo {
+    width: 50px;
+    height: 50px;
+  }
 }
 .contact-list {
   max-width: 141px;
 }
+@media only screen and (min-width: 768px) {
+  .contact-list {
+    max-width: 181px;
+  }
+}
 .contact {
+  min-width: 175px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .contact {
+    font-size: 18px;
+  }
 }
 .contact-list-item:not(:last-child) {
   margin-bottom: 25px;
@@ -32,6 +51,7 @@
   .footer-content-thumb {
     max-width: 398px;
     gap: 136px;
+    margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -39,10 +59,27 @@
     min-width: 645px;
   }
 }
+.footer-all-items-thumb {
+  margin-bottom: 80px;
+}
 @media only screen and (min-width: 768px) {
   .footer-all-items-thumb {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 152px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-all-items-thumb {
+    margin-bottom: 174px;
+  }
+}
+.logo-adress-thumb {
+  max-width: 141px;
+}
+@media only screen and (min-width: 768px) {
+  .logo-adress-thumb {
+    max-width: 181px;
   }
 }
 .footer-menu {
@@ -56,13 +93,32 @@
   }
 }
 .footer-menu-li {
-  width: 63px;
+  max-width: 63px;
+}
+@media only screen and (min-width: 768px) {
+  .footer-menu-li {
+    max-width: 81px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-menu-li {
+    max-width: 115px;
+  }
+}
+.footer-menu-item:hover,
+.footer-menu-item:focus {
+  letter-spacing: 0.2em;
 }
 .footer-menu-item {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 14px;
   letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 768px) {
+  .footer-menu-item {
+    font-weight: 400;
+    font-size: 18px;
+  }
 }
 
 .footer-sotial-box {
@@ -107,10 +163,12 @@
 .rights,
 .condition {
   color: var(--color-footer);
+  font-size: 12px;
 }
 @media only screen and (min-width: 768px) {
   .footer-info {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
   }
 }
