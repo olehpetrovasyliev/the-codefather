@@ -82,18 +82,17 @@
 .swiper-slide {
   display: flex;
   align-items: center;
-  height: 200px;
   background-color: var(--color-dark-green);
 }
 
-@media only screen and (min-width: 768px) {
-  .swiper-slide {
-    height: 255px;
-  }
+.swiper-slide-img {
+  margin: 5px auto;
 }
 
-.swiper-slide-img {
-  margin: 0 auto;
+@media only screen and (min-width: 768px) {
+  .swiper-slide-img {
+    margin: 10px auto;
+  }
 }
 
 .swiper-controls {
