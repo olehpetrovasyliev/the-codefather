@@ -1,6 +1,5 @@
 .header {
   background-color: var(--color-black);
-  padding-top: 20px;
 }
 
 .header.no-transparency {
@@ -83,6 +82,13 @@
     color: var(--color-white);
 
   }
+
+    @media only screen and (min-width: 768px) {
+      .header-link {
+        padding-top: 18px;
+        padding-bottom: 18px;
+      }
+    }
 
   .header-link:hover::after, 
   .header-link:focus::after {
