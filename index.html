@@ -1201,12 +1201,41 @@
     </button>
     <div class="modal-img-clock">
       <picture class="modal-clock-pic">
+        <!-- Descktop screen -->
         <source
-          srcset="/the-codefather/assets/1clock_mob@1x-3e65113d.jpg 1x, /the-codefather/assets/1clock_mob@2x-a161a3ca.jpg 2x"
+          media="(min-width: 1280px)"
+          srcset="/the-codefather/assets/1clock_desc@1x-32d3862d.webp 1x, /the-codefather/assets/1clock_desc@2x-4b3df6b1.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/the-codefather/assets/1clock_desc@1x-c909de6c.jpg 1x, /the-codefather/assets/1clock_desc@2x-bb75d4d5.jpg 2x"
+          type="image/jpg"
+        />
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 767px)"
+          srcset="/the-codefather/assets/1clock_desc@1x-32d3862d.webp 1x, /the-codefather/assets/1clock_desc@2x-4b3df6b1.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 767px)"
+          srcset="/the-codefather/assets/1clock_desc@1x-c909de6c.jpg 1x, /the-codefather/assets/1clock_desc@2x-bb75d4d5.jpg 2x"
+          type="image/jpg"
+        />
+        <!-- Mobile screen -->
+        <source
+          media="(max-width: 767px)"
+          srcset="/the-codefather/assets/1clock_mob@1x-f2e6e9a5.webp 1x, /the-codefather/assets/1clock_mob@2x-d9a7ab94.webp 2x"
+          type="image/webp"
+        />
+        <source
+          srcset="/the-codefather/assets/1clock_mob@1x-bb05a2d4.jpg 1x, /the-codefather/assets/1clock_mob@2x-98185010.jpg 2x"
+          type="image/jpg"
         />
         <img
           class="modal-clock"
-          src="/the-codefather/assets/1clock_mob@1x-3e65113d.jpg"
+          src="/the-codefather/assets/1clock_mob@1x-bb05a2d4.jpg"
           alt="clock"
         />
       </picture>
