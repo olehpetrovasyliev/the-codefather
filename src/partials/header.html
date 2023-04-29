@@ -1,67 +1,78 @@
 <header class="header" data-header>
-  <div class="header-wrapper container"><a class="header-logo" href="./index.html">
-       <picture >
-              <source
-                media="(max-width: 767px)"
-                srcset="
-                  ./images/logo-header/logo-header-mob-1x.png 1x,
-                  ./images/logo-header/logo-header-mob-2x.png 2x
-                "
-              />
-              <source
-                media="(min-width: 768px)"
-                srcset="
-                ./images/logo-header/logo-header-big-x1.png 1x,
-                  ./images/logo-header/logo-header-big-x2.png 2x
-                "
-              />
-              <img
-                src="./images/logo-header/logo-header-mob-1x.png"
-                alt="logo"
-              />
-            </picture>
-      <span>thewatchspot</span></a>
+  <div class="header-wrapper container">
+    <a class="header-logo" href="./index.html">
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./images/logo-header/logo-header-mob-1x.png 1x,
+            ./images/logo-header/logo-header-mob-2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./images/logo-header/logo-header-big-x1.png 1x,
+            ./images/logo-header/logo-header-big-x2.png 2x
+          "
+        />
+        <img src="./images/logo-header/logo-header-mob-1x.png" alt="logo" />
+      </picture>
+      <span>thewatchspot</span></a
+    >
     <nav class="header-nav">
       <ul class="header-list">
-        <li class="header-item"><a class="header-link" href="#about">About us</a></li>
-        <li class="header-item"><a class="header-link" href="#catalog">Catalog</a></li>
-        <li class="header-item"><a class="header-link" href="#sale">Sale</a></li>
+        <li class="header-item">
+          <a class="header-link" href="#about">About us</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#catalog">Catalog</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#sale">Sale</a>
+        </li>
       </ul>
     </nav>
 
     <a class="tel-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
-    
-    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+
+    <button
+      class="menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
       <svg class="menu-toggle-icon" width="24" height="24">
         <use href="./images/sprite.svg#icon-burger"></use>
       </svg>
     </button>
+  </div>
 </header>
 
 <!-- Mobile menu -->
 
 <div class="menu-container js-menu-container" id="mobile-menu">
   <a class="header-logo menu" href="../index.html">
-   <picture >
-              <source
-                media="(max-width: 767px)"
-                srcset="
-                  ./images/logo-header/logo-header-mob-1x.png 1x,
-                  ./images/logo-header/logo-header-mob-2x.png 2x
-                "
-              />
-              <source
-                media="(min-width: 768px)"
-                srcset="
-                ./images/logo-header/logo-header-big-x1.png 1x,
-                  ./images/logo-header/logo-header-big-x2.png 2x
-                "
-              />
-              <img
-                src="./images/logo-header/logo-header-mob-1x.png"
-                alt="logo"
-              />
-            </picture><span>thewatchspot</span></a>
+    <picture>
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./images/logo-header/logo-header-mob-1x.png 1x,
+          ./images/logo-header/logo-header-mob-2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/logo-header/logo-header-big-x1.png 1x,
+          ./images/logo-header/logo-header-big-x2.png 2x
+        "
+      />
+      <img
+        src="./images/logo-header/logo-header-mob-1x.png"
+        alt="logo"
+      /> </picture
+    ><span>thewatchspot</span></a
+  >
 
   <button class="menu-toggle js-close-menu">
     <svg class="menu-close" width="24" height="24">
@@ -79,6 +90,5 @@
     <li>
       <a class="menu-text js-close-menu" href="#sale">Sale</a>
     </li>
-
   </ul>
 </div>
