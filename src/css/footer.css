@@ -29,6 +29,10 @@
   font-style: normal;
   letter-spacing: -0.02em;
 }
+.contact:hover,
+.contact:focus {
+  text-decoration: underline;
+}
 @media only screen and (min-width: 768px) {
   .contact {
     font-size: 18px;
@@ -151,6 +155,10 @@
   .social-list {
     gap: 16px;
   }
+}
+.social:hover,
+.social:focus {
+  opacity: 50%;
 }
 .rights {
   margin-bottom: 14px;
